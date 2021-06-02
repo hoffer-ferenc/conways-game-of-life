@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game of Life</title>
+    <!--css-->
+    <link rel="stylesheet" href='world.css'>
+</head>
+<body>
+	
+    <div id='world_'>
+    </div>
+	<!--<label for="file" class="btn">Choose a file</label>-->
+	<input value="Choose a file" type="file" id="file" name="file" enctype="multipart/form-data"/>
+	<div>
+    <input type='button' class="button" value='Evolve' onclick='evolution()'.>
+	<Input type='button' class="button" id='btnstartstop' value='Start the evolution' onclick='startStopChanger();'/>
+	<Input type='button' class="button" id='btnreset' value='Reset World' onclick='resetWorld();'/>
+	</div>
+	<div>
+	<h3>Evolution counter
+	<a id="counter"></a>
+	</h3>
+	</div>
+	<input type="text" id="xcord" placeholder="X coordinate default = 0" maxlength="2" size="20">
+	<input type="text" id="ycord" placeholder="Y coordinate default = 0" maxlength="2" size="20">
+	<!--js-->
+    <script src='world.js'></script>
+</body>
+</html>

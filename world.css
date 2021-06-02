@@ -1,0 +1,29 @@
+#world_ {
+    padding-bottom: 10px;
+}
+table {
+    background-color: whitesmoke;
+}
+td {
+    width: 10px;
+    height: 10px;
+}
+td.dead {
+    background-color: transparent;
+}
+td.alive {
+    background-color:black;
+}
+body{background-color:rgba(107, 112, 115);}
+.button {
+  background-color: rgba(54, 54, 54);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
